@@ -36,7 +36,7 @@ transform:translateY(-3px);
 /* INTRO SECTION */
 
 .intro{
-height:100vh;
+min-height:100vh;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -163,4 +163,23 @@ font-size:16px;
 
 .social-links a .fa-instagram{
 color:#e1306c;
+}
+
+@media(max-width:768px){
+
+.intro h1{
+font-size:32px;
+}
+
+.profile-img{
+width:120px;
+height:120px;
+}
+
+.btn{
+display:block;
+margin:10px auto;
+width:80%;
+}
+
 }
